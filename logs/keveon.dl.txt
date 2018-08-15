@@ -8,11 +8,19 @@ for imageName in ${images[@]} ; do
 done
 
 for imageName in ${images[@]} ; do
+  docker pull registry.cn-hangzhou.aliyuncs.com/k8sth/$imageName;
+done
+
+for imageName in ${images[@]} ; do
   docker tag keveon/$imageName hub.htres.cn/pub/$imageName
 done
 
 for imageName in ${images[@]} ; do
   docker push hub.htres.cn/pub/$imageName;
+done
+
+for imageName in ${images[@]} ; do
+  docker rmi hub.htres.cn/pub/$imageName;
 done
 
   docker rmi keveon/$imageName;

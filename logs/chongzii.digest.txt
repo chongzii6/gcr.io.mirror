@@ -1,114 +1,65 @@
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:proxy-v1.11.0
-proxy-v1.11.0: Pulling from chongzii/gcr.io.mirror
+proxy-v1.11.0: Pulling from chongzii/gcr.io.mirror:proxy-v1.11.0
 d093dc0d702b: Pull complete
 14bfddfd7fdf: Pull complete
 ecba4fdb0158: Pull complete
 Digest: sha256:cc2ad52e0391fd71b94017852adbfadde3a8aec499cbe5b59a70510d5a0290b2
 Status: Downloaded newer image for chongzii/gcr.io.mirror:proxy-v1.11.0
-[root@m2-k8s htyunlu_venus]# docker images
-REPOSITORY               TAG                 IMAGE ID            CREATED             SIZE
-chongzii/gcr.io.mirror   proxy-v1.11.0       f24ff636250f        2 minutes ago       97.8MB
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:scheduler-v1.11.0
-Error response from daemon: manifest for chongzii/gcr.io.mirror:scheduler-v1.11.0 not found
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:scheduler-v1.11.0
-Error response from daemon: manifest for chongzii/gcr.io.mirror:scheduler-v1.11.0 not found
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:scheduler-v1.11.0
-Error response from daemon: manifest for chongzii/gcr.io.mirror:scheduler-v1.11.0 not found
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:scheduler-v1.11.0
+
 scheduler-v1.11.0: Pulling from chongzii/gcr.io.mirror
 07a152489297: Pull complete
 5d849ba966c4: Pull complete
 Digest: sha256:a3e80922ecc6cf4573bed16f7d3b7e6eb89a23b752281febcadcf60da6fbddb6
 Status: Downloaded newer image for chongzii/gcr.io.mirror:scheduler-v1.11.0
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:controller-mgr-v1.11.0
-controller-mgr-v1.11.0: Pulling from chongzii/gcr.io.mirror
+
+controller-mgr-v1.11.0: Pulling from chongzii/gcr.io.mirror:controller-mgr-v1.11.0
 07a152489297: Already exists
 086a8160aa1d: Pull complete
 Digest: sha256:4bb506dd57148c6ab03fd1acc08ba2d0561a866a81c555c5f2a3f8501b5b48df
 Status: Downloaded newer image for chongzii/gcr.io.mirror:controller-mgr-v1.11.0
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:apiserver-v1.11.0
-Error response from daemon: manifest for chongzii/gcr.io.mirror:apiserver-v1.11.0 not found
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:apiserver-v1.11.0
-apiserver-v1.11.0: Pulling from chongzii/gcr.io.mirror
-07a152489297: Already exists
-5bf938393556: Downloading  34.09MB/34.3MB
 
-
-
-
-
-^C
-[root@m2-k8s htyunlu_venus]#
-[root@m2-k8s htyunlu_venus]#
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:apiserver-v1.11.0
-apiserver-v1.11.0: Pulling from chongzii/gcr.io.mirror
+apiserver-v1.11.0: Pulling from chongzii/gcr.io.mirror:apiserver-v1.11.0
 07a152489297: Already exists
 5bf938393556: Pull complete
 Digest: sha256:e28099d7b72564d5697dea6b83e86f65e2601b312318417756bfb642576d962e
 Status: Downloaded newer image for chongzii/gcr.io.mirror:apiserver-v1.11.0
-[root@m2-k8s htyunlu_venus]#
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:etcd-3.2.18
-Error response from daemon: manifest for chongzii/gcr.io.mirror:etcd-3.2.18 not found
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:etcd-3.2.18
-Error response from daemon: manifest for chongzii/gcr.io.mirror:etcd-3.2.18 not found
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:etcd-3.2.18
-Error response from daemon: manifest for chongzii/gcr.io.mirror:etcd-3.2.18 not found
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:etcd-3.2.18
-Error response from daemon: manifest for chongzii/gcr.io.mirror:etcd-3.2.18 not found
-[root@m2-k8s htyunlu_venus]#
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:etcd-3.2.18
-etcd-3.2.18: Pulling from chongzii/gcr.io.mirror
+
+etcd-3.2.18: Pulling from chongzii/gcr.io.mirror:etcd-3.2.18
 f70adabe43c0: Pull complete
 7c7edbd93e22: Pull complete
 e0de1b76f800: Pull complete
 Digest: sha256:23ca25022ede97602805586f638cd9dcd154388de77dcea4ee7e51a399002090
 Status: Downloaded newer image for chongzii/gcr.io.mirror:etcd-3.2.18
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:coredns-1.1.3
-Error response from daemon: manifest for chongzii/gcr.io.mirror:coredns-1.1.3 not found
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:
-[root@m2-k8s htyunlu_venus]#
-[root@m2-k8s htyunlu_venus]# docker images
-REPOSITORY               TAG                      IMAGE ID            CREATED             SIZE
-chongzii/gcr.io.mirror   etcd-3.2.18              65a522c96d5a        5 minutes ago       219MB
-chongzii/gcr.io.mirror   apiserver-v1.11.0        e74b22e48938        13 minutes ago      187MB
-chongzii/gcr.io.mirror   controller-mgr-v1.11.0   f302542410aa        17 minutes ago      155MB
-chongzii/gcr.io.mirror   scheduler-v1.11.0        e12fcb8aa5dd        21 minutes ago      56.8MB
-chongzii/gcr.io.mirror   proxy-v1.11.0            f24ff636250f        28 minutes ago      97.8MB
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:coredns-1.1.3
-coredns-1.1.3: Pulling from chongzii/gcr.io.mirror
+
+coredns-1.1.3: Pulling from chongzii/gcr.io.mirror:coredns-1.1.3
 6d987f6f4279: Pull complete
 f7a3e79b147d: Pull complete
 8d6991e77daf: Pull complete
 Digest: sha256:f333e2f853f71ca55b874a87491bf8f9ddcb4d27269e60f55a1a30a69af69ceb
 Status: Downloaded newer image for chongzii/gcr.io.mirror:coredns-1.1.3
 
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:pause-amd64-3.1
-pause-amd64-3.1: Pulling from chongzii/gcr.io.mirror
+pause-amd64-3.1: Pulling from chongzii/gcr.io.mirror:pause-amd64-3.1
 7675586df687: Pull complete
 Digest: sha256:384bf6fe5f53605a8467f91e8e78ed65118bea066cb6422525636fed5e2c3650
 Status: Downloaded newer image for chongzii/gcr.io.mirror:pause-amd64-3.1
 
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:dashboard-v1.8.3
-dashboard-v1.8.3: Pulling from chongzii/gcr.io.mirror
+dashboard-v1.8.3: Pulling from chongzii/gcr.io.mirror:dashboard-v1.8.3
 a4026007c47e: Pull complete
 Digest: sha256:1518fb20f6b96b213b0de4359e9e509b8cb9b9392ffcca4d7f416e62c9438f58
 Status: Downloaded newer image for chongzii/gcr.io.mirror:dashboard-v1.8.3
 
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:dns-sidecar-1.14.9
-dns-sidecar-1.14.9: Pulling from chongzii/gcr.io.mirror
+dns-sidecar-1.14.9: Pulling from chongzii/gcr.io.mirror:dns-sidecar-1.14.9
 ff3a5c916c92: Pull complete
 82a23ece0533: Pull complete
 Digest: sha256:aa6fc954498368c73fdd630d797d607fca700cf9b108b48970c184cb6e054dd6
 Status: Downloaded newer image for chongzii/gcr.io.mirror:dns-sidecar-1.14.9
-[root@m2-k8s htyunlu_venus]#
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:kube-dns-1.14.9
-kube-dns-1.14.9: Pulling from chongzii/gcr.io.mirror
+
+kube-dns-1.14.9: Pulling from chongzii/gcr.io.mirror:kube-dns-1.14.9
 ff3a5c916c92: Already exists
 d5355a80fe98: Pull complete
 Digest: sha256:eef65adb037304dfbf6199ea1663f5fd265fcc1337b361cc359d953bb917e1a6
 Status: Downloaded newer image for chongzii/gcr.io.mirror:kube-dns-1.14.9
-[root@m2-k8s htyunlu_venus]# docker pull chongzii/gcr.io.mirror:dnsmasq-nanny-1.14.9
-dnsmasq-nanny-1.14.9: Pulling from chongzii/gcr.io.mirror
+
+dnsmasq-nanny-1.14.9: Pulling from chongzii/gcr.io.mirror:dnsmasq-nanny-1.14.9
 605ce1bd3f31: Pull complete
 18fc4550653b: Pull complete
 50e81d1ef942: Pull complete

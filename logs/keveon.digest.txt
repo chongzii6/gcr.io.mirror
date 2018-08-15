@@ -4,51 +4,61 @@ d093dc0d702b: Pull complete
 ecba4fdb0158: Pull complete
 Digest: sha256:3c908257f494b60c0913eae6db3d35fa99825d487b2bcf89eed0a7d8e34c1539
 Status: Downloaded newer image for keveon/kube-proxy-amd64:v1.11.0
+
 v1.11.0: Pulling from keveon/kube-scheduler-amd64
 07a152489297: Pull complete
 5d849ba966c4: Pull complete
 Digest: sha256:6e1f4aeee486e0fd2d86db5ad4adeb92f05959590ec17dc09a3b1b618c899f5f
 Status: Downloaded newer image for keveon/kube-scheduler-amd64:v1.11.0
+
 v1.11.0: Pulling from keveon/kube-controller-manager-amd64
 07a152489297: Already exists
 086a8160aa1d: Pull complete
 Digest: sha256:9a6a5d7a23e57b64b4cb3e6f6e430b85eaf1c6eca1a6d64a31b2ab8a8280c71d
 Status: Downloaded newer image for keveon/kube-controller-manager-amd64:v1.11.0
+
 v1.11.0: Pulling from keveon/kube-apiserver-amd64
 07a152489297: Already exists
 5bf938393556: Pull complete
 Digest: sha256:01b8d1436f32c78e19aff309055080d585897f4f5b858583c782975fc3c60ee1
 Status: Downloaded newer image for keveon/kube-apiserver-amd64:v1.11.0
+
 3.2.18: Pulling from keveon/etcd-amd64
 f70adabe43c0: Pull complete
 7c7edbd93e22: Pull complete
 e0de1b76f800: Pull complete
 Digest: sha256:b960569ade5f37205a033dcdc3191fe99dc95b15c6795a6282859070ec2c6124
 Status: Downloaded newer image for keveon/etcd-amd64:3.2.18
+
 1.1.3: Pulling from keveon/coredns
 6d987f6f4279: Pull complete
 f7a3e79b147d: Pull complete
 8d6991e77daf: Pull complete
 Digest: sha256:533c079b121918c3aa36a8f04b13b7dfdfe6947b0378424347ce18a170fc13bf
 Status: Downloaded newer image for keveon/coredns:1.1.3
+
 3.1: Pulling from keveon/pause-amd64
 7675586df687: Pull complete
 Digest: sha256:fcaff905397ba63fd376d0c3019f1f1cb6e7506131389edbcb3d22719f1ae54d
 Status: Downloaded newer image for keveon/pause-amd64:3.1
+
 v1.8.3: Pulling from keveon/kubernetes-dashboard-amd64
 a4026007c47e: Pull complete
 Digest: sha256:050620264fb56824b1bc1b9876f9c17875d96bb9fb96d5c34027ddbf65786f62
 Status: Downloaded newer image for keveon/kubernetes-dashboard-amd64:v1.8.3
+
 1.14.9: Pulling from keveon/k8s-dns-sidecar-amd64
 ff3a5c916c92: Pull complete
 82a23ece0533: Pull complete
 Digest: sha256:535d108a4951f0c9c479949ff96878f353403458ec908266db36a98e0449c8b6
 Status: Downloaded newer image for keveon/k8s-dns-sidecar-amd64:1.14.9
+
 1.14.9: Pulling from keveon/k8s-dns-kube-dns-amd64
 ff3a5c916c92: Already exists
 d5355a80fe98: Pull complete
 Digest: sha256:7d3d06a0c5577f6f546d34d4bbde5b495157ee00b55d83052d68f723421827da
 Status: Downloaded newer image for keveon/k8s-dns-kube-dns-amd64:1.14.9
+
 1.14.9: Pulling from keveon/k8s-dns-dnsmasq-nanny-amd64
 605ce1bd3f31: Pull complete
 18fc4550653b: Pull complete
