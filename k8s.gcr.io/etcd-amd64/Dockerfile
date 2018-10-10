@@ -1,2 +1,1 @@
-FROM k8s.gcr.io/etcd-amd64:3.2.18 
-MAINTAINER chenjun <chenjun@molitv.cn>
+FROM k8s.gcr.io/etcd:3.2.24 
